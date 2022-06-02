@@ -24,3 +24,5 @@ pom.xml.asc
 .shadow-cljs/
 .cpcache/
 .calva/output-window/output.calva-repl
+
+css/compiled.css
