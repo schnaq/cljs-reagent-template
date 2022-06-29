@@ -3,9 +3,11 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "shadow:watch": "yarn shadow-cljs watch frontend",
+    "shadow:watch": "yarn shadow-cljs watch app",
     "tailwind:watch": "yarn tailwindcss -i ./resources/tailwind.css -o ./resources/public/css/compiled.css --watch",
-    "dev": "yarn run-p -l *:watch"
+    "tailwind:production": "yarn tailwindcss -i ./resources/tailwind.css -o ./resources/public/css/compiled.css --minify",
+    "dev": "yarn run-p -l *:watch",
+    "build": "yarn shadow-cljs release app; yarn tailwind:production"
   },
   "devDependencies": {
     "npm-run-all": "^4.1.5",

@@ -1,8 +1,6 @@
 {:paths ["src/main" "src/test" "resources"]
 
- :deps {org.clojure/clojurescript {:mvn/version "1.11.54"}
+ :deps {binaryage/devtools {:mvn/version "1.0.6"}
+        org.clojure/clojurescript {:mvn/version "1.11.54"}
         reagent/reagent {:mvn/version "1.1.1"}
-        thheller/shadow-cljs {:mvn/version "2.19.1"}}
-
- :aliases {:frontend
-           {:extra-deps {binaryage/devtools {:mvn/version "1.0.6"}}}}}
+        thheller/shadow-cljs {:mvn/version "2.19.1"}}}
