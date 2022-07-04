@@ -35,7 +35,9 @@ individually or connect to your REPL from your editor.
 
 ### Editor
 
-I recommend using Calva.
+I recommend using VS Code with the Calva plugin. Here is a demo on how to start and connect a REPL with it.
+
+https://user-images.githubusercontent.com/1507474/177212625-af7c0ce5-5c52-48ef-8919-8eadfb3b60d7.mp4
 
 ## License
 
