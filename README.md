@@ -1,7 +1,5 @@
 # Template to create a ClojureScript + Reagent + shadow-cljs project
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fschnaq%2Fcljs-reagent-template)
-
 This project creates a fully functional ClojureScript project for you, using the
 stack of ClojureScript, reagent and shadow-cljs. CSS is built using tailwindcss,
 but you can easily replace it if you like.
