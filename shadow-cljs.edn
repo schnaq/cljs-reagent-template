@@ -1,9 +1,9 @@
 {:deps true
- :dev-http {8000 "resources/public"}
- :js-options {:js-package-dirs ["resources/public/node_modules"]}
+ :dev-http {8000 "public"}
+ :js-options {:js-package-dirs ["public/node_modules"]}
  :builds {:app
           {:target :browser
            :modules {:main {:init-fn playground.core/init}}
-           :output-dir "resources/public/js/compiled"
+           :output-dir "public/js/compiled"
            :asset-path "/js/compiled"
            :devtools {:preloads [devtools.preload]}}}}

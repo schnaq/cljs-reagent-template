@@ -1,9 +1,18 @@
 # Template to create a ClojureScript + Reagent + shadow-cljs project
 
 This project creates a fully functional ClojureScript project for you, using the
-stack of ClojureScript, reagent and shadow-cljs. CSS is built using tailwindcss.
+stack of ClojureScript, reagent and shadow-cljs. CSS is built using tailwindcss,
+but you can easily replace it if you like.
 
-## Installation
+## Production
+
+Run a production build in one command:
+
+yarn build
+
+This generates all minified and optimized files in `public` ready to get deployed.
+
+## Development
 
 Create a copy of this project. Then, run the following commands:
 
@@ -18,11 +27,13 @@ yarn dev
 Open your browser at http://localhost:8000/. You now have a REPL running,
 hot-reloading of CSS and your ClojureScript files.
 
-## Development
+`yarn dev` runs both, shadow-cljs and tailwindcss in a watch-mode so that you
+have an interactive development experience. You can, of course, start those jobs
+individually or connect to your REPL from your editor.
 
-I recommend connecting your editor with the REPL or directly start it inside
-your editor. Then you can manually start tailwind to check css changes. See
-[package.json](./package.json) for available scripts.
+### Editor
+
+I recommend using Calva.
 
 ## License
 

@@ -1,4 +1,4 @@
-{:paths ["src/main" "src/test" "resources"]
+{:paths ["src/main" "src/test" "public"]
 
  :deps {binaryage/devtools {:mvn/version "1.0.6"}
         org.clojure/clojurescript {:mvn/version "1.11.54"}

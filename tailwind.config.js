@@ -1,8 +1,8 @@
-const defaultTheme = require('./resources/public/node_modules/tailwindcss/defaultTheme')
+const defaultTheme = require('./public/node_modules/tailwindcss/defaultTheme')
 
 module.exports = {
-  content: ["./resources/public/js/compiled/cljs-runtime/playground.*.js",
-            "./resources/public/js/compiled/main.js"],
+  content: ["./public/js/compiled/cljs-runtime/playground.*.js",
+            "./public/js/compiled/main.js"],
   theme: {
     extend: {
       fontFamily: {

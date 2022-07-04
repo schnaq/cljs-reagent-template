@@ -1,5 +1,5 @@
-resources/public/node_modules/
-resources/public/js/compiled
+public/node_modules/
+public/js/compiled
 
 /target
 /checkouts
