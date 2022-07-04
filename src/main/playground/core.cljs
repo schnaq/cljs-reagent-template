@@ -5,7 +5,7 @@
 
 (defn- main []
   [:main.container.mx-auto.pt-5
-   [:h1.text-3xl "Welcome to your app"]
+   [:h1 "Welcome to your app"]
    [:p "Foo"]])
 
 ;; -----------------------------------------------------------------------------
