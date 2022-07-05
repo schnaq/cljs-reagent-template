@@ -1,7 +1,6 @@
 (ns playground.core
-  (:require ["react-dom/client" :refer [createRoot]]
-            [goog.dom :as gdom]
-            [reagent.core :as r]))
+  (:require [goog.dom :as gdom]
+            [reagent.dom]))
 
 (defn- main []
   [:main.container.mx-auto.pt-5
@@ -10,11 +9,12 @@
 
 ;; -----------------------------------------------------------------------------
 
-(defonce root (createRoot (gdom/getElement "app")))
+(defn- render []
+  (reagent.dom/render [main] (gdom/getElement "app")))
 
 (defn init
   []
-  (.render root (r/as-element [main])))
+  (render))
 
 (defn- ^:dev/after-load re-render
   "The `:dev/after-load` metadata causes this function to be called after
