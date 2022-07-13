@@ -19,8 +19,7 @@ pom.xml.asc
 .hgignore
 .hg/
 
-.clj-kondo/
-.lsp/
+.cache/
 .shadow-cljs/
 .cpcache/
 .calva/output-window/output.calva-repl
