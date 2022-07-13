@@ -1,4 +1,4 @@
-const defaultTheme = require('./public/node_modules/tailwindcss/defaultTheme')
+const defaultTheme = require('./node_modules/tailwindcss/defaultTheme')
 
 module.exports = {
   content: ["./public/js/compiled/cljs-runtime/playground.*.js",

@@ -1,6 +1,6 @@
 {:deps true
  :dev-http {8000 "public"}
- :js-options {:js-package-dirs ["public/node_modules"]}
+ :js-options {:js-package-dirs ["node_modules"]}
  :builds {:app
           {:target :browser
            :modules {:main {:init-fn playground.core/init}}
