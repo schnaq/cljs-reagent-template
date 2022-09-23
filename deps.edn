@@ -1,6 +1,9 @@
 {:paths ["src/main" "src/test" "public"]
 
  :deps {binaryage/devtools {:mvn/version "1.0.6"}
-        org.clojure/clojurescript {:mvn/version "1.11.54"}
+        org.clojure/clojurescript {:mvn/version "1.11.60"}
         reagent/reagent {:mvn/version "1.1.1"}
-        thheller/shadow-cljs {:mvn/version "2.19.1"}}}
+        thheller/shadow-cljs {:mvn/version "2.20.2"}}
+
+ :aliases {:outdated {:extra-deps {com.github.liquidz/antq {:mvn/version "RELEASE"}}
+                      :main-opts ["-m" "antq.core"]}}}
