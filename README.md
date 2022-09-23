@@ -37,6 +37,16 @@ I recommend using VS Code with the Calva plugin. Here is a demo on how to start 
 
 https://user-images.githubusercontent.com/1507474/177212625-af7c0ce5-5c52-48ef-8919-8eadfb3b60d7.mp4
 
+### Outdated dependencies
+
+Check outdated Clojure dependencies with:
+
+    clj -M:outdated
+
+And JavaScript-Dependencies:
+
+    yarn outdated
+
 ## License
 
 This project is [MIT licensed](./LICENSE).
